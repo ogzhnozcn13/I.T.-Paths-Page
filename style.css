@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left, blue, green);
+}
+
+.head{
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    text-shadow: 10px 10px 10px  rgb(0, 0, 0);
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pic{
+    width: 300px;
+    height: 250px;
+}
+
+#pic:hover{
+    width: 500px;
+    height: auto;
+}
+
+.sec-title{
+    color: orange;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.par{
+    color: white;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven{
+    width: 80%;
+    height: 300px;
+    border: 1px solid none;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.181);
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but{
+    float: right;
+    background-color: #ff7f50;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.but:hover{
+    width: 165px;
+    height: 50px;
+}
